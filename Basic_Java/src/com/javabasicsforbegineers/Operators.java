@@ -64,8 +64,8 @@ public class Operators {
 	}
 	public static void main(String[] args) {
 		// Operators o1 = new Operators(); // Object for Operators
-		//ArithmaticOperators(a, b);
-		//RelationalOperators(c1, c2);
+		ArithmaticOperators(a, b);
+		RelationalOperators(c1, c2);
 		LogicalOperators(x, y, z);
 	}
 
