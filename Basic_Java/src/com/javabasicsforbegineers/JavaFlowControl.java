@@ -130,6 +130,19 @@ public class JavaFlowControl {
 			}
 		}
 	}
+	public static void BigNumber1(int a1, int a2, int a3, int a4, int a5)
+	{
+		if (a1>a2 && a1>a3 && a1>a4 && a1>a5)
+			System.out.println("a1 is bigger than a2,a3,a4,a5");
+		else if (a2>a1 && a2>a3 && a2>a4 && a2>a5)
+			System.out.println("a2 is bigger than a1,a3,a4,a5");
+		else if (a3>a1 && a3>a2 && a3>a4 && a3>a5)
+			System.out.println("a3 is bigger than a1,a2,a4,a5");
+		else if (a4>a1 && a4>a2 && a4>a3 && a4>a5)
+			System.out.println("a4 is bigger than a1,a2,a3,a5");
+		else
+			System.out.println("a5 is bigger than a1,a2,a3,a4");
+	}
 	public static void main(String[] args) {
 		int a = 50;
 		//int b = 50000;
@@ -142,6 +155,12 @@ public class JavaFlowControl {
 		BigNumber(102, 12588, 23, 3784, 485);
 		BigNumber(102, 12588, 2389652, 3784, 485);
 		BigNumber(102, -12588, 0, -3784, 485);
+		BigNumber1(a1, a2, a3, a4, a5);
+		BigNumber1(2, 12, 23, 34, 45);
+		BigNumber1(102, 128, 23, 3784, 485);
+		BigNumber1(102, 12588, 23, 3784, 485);
+		BigNumber1(102, 12588, 2389652, 3784, 485);
+		BigNumber1(102, -12588, 0, -3784, 485);
 	}
 
 }
