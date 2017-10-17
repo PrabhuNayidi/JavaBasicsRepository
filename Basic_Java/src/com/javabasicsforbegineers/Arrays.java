@@ -2,9 +2,55 @@ package com.javabasicsforbegineers;
 
 public class Arrays {
 
+	public static void ArrayDeclaration()
+	{
+		System.out.println("------Method I------");
+		int a[];
+		a = new int[5];
+		a[0] = 25;
+		a[1] = 5;
+		a[2] = 125;
+		a[3] = 525;
+		for (int i : a)
+		{
+			System.out.println("The Elements of array a are : " + i);
+		}
+		
+		System.out.println("------Method II------");
+		char [] vowels = new char[5];
+		vowels[0] = 'a';
+		vowels[1] = 'e';
+		vowels[2] = 'i';
+		vowels[3] = 'o';
+		vowels[4] = 'u';
+		for (char c : vowels)
+		{
+			System.out.println("The Elements of a Vowel Alphabets Array are : " + c);
+		}
+		System.out.println("------Method III------");
+		String [] strArray = {"Alabama", "Alaska", "Arizona", "Arkansas"};
+		for (String states: strArray)
+		{
+			System.out.println("The Elements of strArray are : " + states);
+		}
+		System.out.println("-----------------------------------------------------------");		
+	}
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		//Declaration of Arrays
+		//-----------Method 1----------
+		/*datatype arrayname []; (Creating Array)
+		arrayname = new datatype[n] (Define Size)
+		arrayname[0] = value;
+		arrayname[1] = value;
+		arrayname[n-1] = value;*/
+		ArrayDeclaration();
+		//-----------Method 2----------
+		/*datatype [] arrayname = new datatype[length] (Declare array along with it's length)
+		arrayname[index] = value (Assigning the value)*/
+		ArrayDeclaration();
+		//-----------Method 2----------
+		/*datatype [] arrayname = {value 1, value 2,......value n}(Declare Array and Assign Values)*/
+		ArrayDeclaration();
 	}
 
 }
