@@ -43,11 +43,11 @@ public class Arrays {
 		arrayname[0] = value;
 		arrayname[1] = value;
 		arrayname[n-1] = value;*/
-		ArrayDeclaration();
+		
 		//-----------Method 2----------
 		/*datatype [] arrayname = new datatype[length] (Declare array along with it's length)
 		arrayname[index] = value (Assigning the value)*/
-		ArrayDeclaration();
+		
 		//-----------Method 2----------
 		/*datatype [] arrayname = {value 1, value 2,......value n}(Declare Array and Assign Values)*/
 		ArrayDeclaration();
