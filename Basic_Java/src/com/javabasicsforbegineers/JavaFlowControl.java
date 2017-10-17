@@ -143,6 +143,19 @@ public class JavaFlowControl {
 		else
 			System.out.println("a5 is bigger than a1,a2,a3,a4");
 	}
+	public static void GenderCheck(char sex)
+	{
+		switch(sex)
+		{
+		case 'M' : System.out.println("The Specified Gender is Male");
+				   break;
+		case 'F' : System.out.println("The Specified Gender is Female");
+				   break;
+		case 'O' : System.out.println("The Specified Gender is Other");
+				   break;
+		default : System.out.println("Invalid Gender");
+		}
+	}
 	public static void main(String[] args) {
 		int a = 50;
 		//int b = 50000;
@@ -161,6 +174,12 @@ public class JavaFlowControl {
 		BigNumber1(102, 12588, 23, 3784, 485);
 		BigNumber1(102, 12588, 2389652, 3784, 485);
 		BigNumber1(102, -12588, 0, -3784, 485);
+		
+		GenderCheck('M');
+		GenderCheck('F');
+		GenderCheck('O');
+		GenderCheck('f');
+		
 	}
 
 }
