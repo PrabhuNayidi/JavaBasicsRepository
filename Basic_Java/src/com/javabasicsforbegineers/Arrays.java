@@ -51,6 +51,19 @@ public class Arrays {
 		//-----------Method 2----------
 		/*datatype [] arrayname = {value 1, value 2,......value n}(Declare Array and Assign Values)*/
 		ArrayDeclaration();
+		//Duplicating an Array
+		int [] array1 = {1,2,3,4,5,6,7,8,9,10};
+		System.out.println("The Elements of array1 are : ");
+		for (int i : array1)
+		{
+			System.out.println(i);
+		}
+		int array2 [] = array1;
+		System.out.println("The Elements of array2 are : ");
+		for (int j : array2)
+		{
+			System.out.println(j);
+		}
 	}
 
 }
