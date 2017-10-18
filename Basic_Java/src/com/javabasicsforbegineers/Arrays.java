@@ -35,6 +35,22 @@ public class Arrays {
 		}
 		System.out.println("-----------------------------------------------------------");		
 	}
+	
+	public static void ArrayTypes()
+	{
+		int [] a11 = {1,2,3,4,5};
+		String [] [] a2 ={{"Illinois","California","Texas"},{"Springfield","Sacramento","Austin","@@@@@@@@@@@@"}};
+		System.out.println(a11);
+		System.out.println("----------------------");
+		System.out.println(a2.length);
+		for (int a=0; a<a2.length; a++)
+		{
+			for (int b=0; b<a2[a].length; b++)
+			{
+				System.out.println(a2[a][b]);
+			}
+		}
+	}
 	public static void main(String[] args) {
 		//Declaration of Arrays
 		//-----------Method 1----------
@@ -64,6 +80,8 @@ public class Arrays {
 		{
 			System.out.println(j);
 		}
+		
+		ArrayTypes();
 	}
 
 }
