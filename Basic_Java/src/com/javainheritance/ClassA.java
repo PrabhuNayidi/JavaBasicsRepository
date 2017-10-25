@@ -24,11 +24,21 @@ public class ClassA {
 	{
 		System.out.println("The Sum of given two numbers is : " + (a+b));
 	}
+	static int c = 15;
+	static int d = 25;
+	public static int product()
+	{
+		int res = c*d;
+		return res;
+	}
 	public static void main(String[] args) {
 		ClassA o1 = new ClassA();
 		System.out.println("The First Number is : " + o1.a);
 		System.out.println("The Second Number is : " + o1.b);
 		o1.add();
+		System.out.println("The value of c is : " + c);
+		System.out.println("The value of d is : " + d);
+		System.out.println("The Product of values c and d is : " + product());
 	}
 
 }
