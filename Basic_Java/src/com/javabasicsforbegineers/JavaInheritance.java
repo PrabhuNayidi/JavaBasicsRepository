@@ -10,23 +10,7 @@ public class JavaInheritance {
 	IV. Inheritance between Super Class and Sub Class can be achieved using extends keyword.
 	V. Using Inheritance we can use all class members and also we can use protected class members.
 	*/
-	/* Types of Inheritance in Java Programming Language:
-	  Single Inheritance - 
-	  			public Class ClassB extends ClassA
-	  			{
-	  			}
-	  Multi Level Inheritance - 
-	  			public Class ClassB extends ClassA {
-	  			public Class ClassC extends ClassB {
-	  			}
-	  			}
-	  Note : Java Language doesn't support Multiple Inheritance due to Diamond Problem
-	  Multiple Inheritance - 
-	  public Class ClassB extends ClassA {
-	  public Class ClassB extends ClassC {
-	  }
-	  }
-	*/
+	
 	
 	//Declaration of Static Variables
 	static int a = 10;
@@ -63,6 +47,26 @@ public class JavaInheritance {
 	{
 		System.out.println("The Modular Division between two given numbers is : " + (c1%d1));
 	}
+	
+	/* Types of Inheritance in Java Programming Language:
+	  Single Inheritance - 
+	  			public Class ClassB extends ClassA
+	  			{
+	  			}
+	  Multi Level Inheritance - 
+	  			public Class ClassB extends ClassA {
+	  			public Class ClassC extends ClassB {
+	  			}
+	  			}
+	  Note : Java Language doesn't support Multiple Inheritance due to Diamond Problem
+	  Multiple Inheritance - 
+	  public Class ClassB extends ClassA {
+	  public Class ClassB extends ClassC {
+	  }
+	  }
+	*/
+	
+		
 	
 	public static void main(String[] args) 
 	{
