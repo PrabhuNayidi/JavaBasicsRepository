@@ -1,0 +1,33 @@
+This Repository contains the concepts on Java for Selenium Automation Testing.
+
+This Repository contains code on the following concepts in 5 different packages under src folder.
+Prerequisites:
+	Java Environment Setup
+	Java Program Structure
+
+Java for Selenium was divided into two Sections.
+
+Section I: (Java Fundamentals)
+----------
+	- Comments in Java Programming Language.
+	- Data Types in Java Programming Language.
+	- Modifiers in Java Programming Language.
+	- Variables in Java Programming Language.
+	- Operators in Java Programming Language.
+	- Flow Control Statements in Java Programming Language:
+		  Conditional Control Flow Statements.
+		  Loop Control Flow Statements.
+	- Arrays in Java Programming Language.
+	- String Handling in Java Programming Language.
+	- I/O Operations and File Handling in Java Programming Language.
+	- Methods in Java Programming Language:
+		  Built In Methods.
+		  User Defined Methods.
+	- Exception Handling in Java Programming Language.
+
+Section II: (Java OOPS - Object Oriented Programming System)
+-----------
+	- Inheritance
+	- Polymorphism
+	- Abstraction
+	- Encapsulation
