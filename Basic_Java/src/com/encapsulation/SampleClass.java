@@ -20,6 +20,11 @@ public class SampleClass {
 	}
 	
 	//Write setter Method
+	public void setName(String newName)
+	{
+		courseName = newName;
+	}
+	
 	public static void main(String[] args) {
 		SampleClass obj = new SampleClass();
 		System.out.println(obj.getName()); // getter Method Without setter Method.
