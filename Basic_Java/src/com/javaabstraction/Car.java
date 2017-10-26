@@ -12,7 +12,11 @@ public abstract class Car {
 	public abstract void engine();
 	public abstract void name();
 	public static void main(String[] args) {
-
+		//Car o = new Car(); --->we can't create instance for the Abstract Class.
+		HondaCRV o = new HondaCRV();
+		o.engine();
+		o.name();
+		o.doors();
+		o.types();
 	}
-
 }
