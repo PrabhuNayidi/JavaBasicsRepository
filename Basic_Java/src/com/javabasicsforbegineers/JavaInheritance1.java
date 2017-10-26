@@ -1,10 +1,14 @@
 package com.javabasicsforbegineers;
 
-public class JavaInheritance1 {
+import com.javainheritance.Class1;
+
+public class JavaInheritance1 extends Class1{
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		JavaInheritance1 o = new JavaInheritance1();
+		System.out.println("The Value of a in JavaInheritance1 is : " + o.a);
+		System.out.println("The Value of b in JavaInheritance1 is : " + o.b);
+		o.add();
 	}
 
 }
