@@ -12,5 +12,4 @@ public class Class1 {
 		System.out.println("The Value of b in Class1 is : " + obj1.b);
 		obj1.add();
 	}
-
 }
