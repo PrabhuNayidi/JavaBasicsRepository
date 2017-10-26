@@ -17,6 +17,7 @@ public class Introduction {
 	 			int a = 25; //Correct regarding the Interfaces
 	 	V. In Interfaces Variables are public, static and final by default.
 	 	VI. For Interfaces implements keyword has to be used.
+	 	VII. From Class(Concrete Class or Abstract Class) to Class we use "extends" keyword, From Interface to Class we use "implements" keyword
 	*/
 	
 	public static void main(String[] args) {
